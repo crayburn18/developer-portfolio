@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Playfair+Display&display=swap');
 
 body {
     margin: 0;
@@ -17,11 +17,12 @@ body {
 
 .showcase .title {
     border-bottom: rgb(255, 0, 0) solid 1px;
-    padding-bottom: 45px;
+    /* padding-bottom: 45px; */
+    padding: 0 20px 45px 20px;
 }
 
 .showcase h2 {
-    font-family: PT-Serif;
+    font-family: 'Playfair Display';
     font-size: 40px;
     color: white;
     text-align: end;
@@ -30,7 +31,7 @@ body {
 }
 
 .showcase h1 {
-    font-family: PT-Serif sans-serif;
+    font-family: 'Playfair Display', sans-serif;
     font-size: 50px;
     color: rgb(255, 0, 0);
     text-align: end;
@@ -61,4 +62,50 @@ body {
 .icons a:hover {
     /* transform: scale(1.07); */
     color: red;
+}
+
+/* Projects */
+
+.projects {
+    margin-top: 300px;
+}
+
+.projects h1 {
+    display: flex;
+    justify-content: center;
+    color: red;
+    font-family: 'PT Serif', sans-serif;
+    font-size: 45px;
+    /* border-bottom: rgb(216, 175, 175) solid 1px; */
+    padding-bottom: 20px; 
+}
+
+.projects div {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.projects img {
+    height: 200px;
+    padding: 20px;
+    /* border: white solid 5px; */
+}
+
+.projects a:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer h2 {
+    color: rgba(255, 255, 255, 0.39);
+    font-size: 16px;
 }
