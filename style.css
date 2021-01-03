@@ -2,7 +2,8 @@
 
 body {
     margin: 0;
-    padding: 0;
+    padding-left: 10%;
+    padding-right: 10%;
     background-color: rgb(167, 159, 135);
 }
 
@@ -17,6 +18,30 @@ body {
 
 .fade-in {
     animation: fadeIn 4s;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+    background: red;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+/* Navbar */
+
+.navbar img {
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
 /* Showcase */
@@ -102,6 +127,46 @@ body {
     
 }
 
+.projects .project-box {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.projects p {
+    color: white;
+    font-family: 'Playfair Display';
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.projects .btn {
+    margin-bottom: 20px;
+    font-family: 'PT Serif', sans-serif;
+}
+
+.projects .btn:hover {
+    transform: scale(.98);
+}
+
+.projects h3 {
+    font-family: 'Playfair Display', sans-serif;
+    text-align: center;
+}
+
+.projects span {
+    color: red;
+    font-family: 'PT Serif', sans-serif;
+}
+
+.projects h2 {
+    color: red;
+    font-family: 'PT Serif', sans-serif;
+    text-align: center;
+}
+
 .projects img {
     height: 200px;
     padding: 20px;
@@ -144,4 +209,24 @@ footer {
 footer h2 {
     color: rgba(255, 255, 255, 0.39);
     font-size: 16px;
+}
+
+/* Tablets & Under */
+
+@media (max-width: 969px) {
+    .contact .mobile {
+        margin-top: 10px;
+    }
+}
+
+/* Mobile */
+
+@media (max-width: 608px) {
+    .showcase h1 span {
+        display: none;
+    }
+
+    .contact .mobile {
+        margin-left: 8px;
+    }
 }
