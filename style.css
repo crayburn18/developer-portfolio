@@ -128,7 +128,7 @@ a {
 }
 
 .projects .project-box {
-    width: 200px;
+    width: 265px;
     display: flex;
     flex-direction: column;
 }
