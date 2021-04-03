@@ -35,6 +35,9 @@ a {
     text-align: center;
 }
 
+header{
+    height: 100vh;
+}
 
 /* Navbar */
 
@@ -105,7 +108,7 @@ a {
 /* Projects */
 
 .projects {
-    margin-top: 300px;
+    /* margin-top: 300px; */
 }
 
 .projects h1 {
@@ -116,7 +119,6 @@ a {
     font-size: 45px;
     /* border-bottom: rgb(216, 175, 175) solid 1px; */
     padding-bottom: 20px; 
-    animation: ;
 }
 
 .projects div {
